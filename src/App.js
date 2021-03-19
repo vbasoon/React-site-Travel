@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Users from './Pages/Users/Users';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route exact path="/users" render={Users} />
         <Route exact path="/about" render={About} />
       </Switch>
-
+      <Footer />
     </Router>
 
   );

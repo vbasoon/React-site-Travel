@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from '../../Components/Slider/Slider'
-import { Container, Row, Col, Card, Button, Jumbotron } from 'react-bootstrap'
+import Jumbotron from '../../Components/Jumbotron/Jumbotron'
+import { Container, Row, Col, Card, Button } from 'react-bootstrap'
 import picture from '../../image1.jpg'
 
 
@@ -130,6 +131,19 @@ const Home = () => {
             </Row >
          </Container>
          <Jumbotron />
+         <Container>
+            <Row>
+               <Col md={7}>
+                  <img
+                     src={picture}
+                     height={400} />
+               </Col>
+               <Col md={5}>
+                  <h2>BVM Corp</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam magni iure sit nulla. Quam at possimus, officiis incidunt quibusdam itaque unde, ducimus consequuntur natus molestias sunt earum, voluptates doloribus deleniti dicta fugiat ullam aperiam nobis! At, sequi recusandae necessitatibus modi vel natus aliquam nisi id veritatis harum! Dolores, sed unde.</p>
+               </Col>
+            </Row>
+         </Container>
       </div>
    )
 }
